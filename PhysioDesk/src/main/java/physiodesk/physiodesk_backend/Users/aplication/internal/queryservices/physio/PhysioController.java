@@ -18,7 +18,7 @@ import physiodesk.physiodesk_backend.Users.interfaces.rest.transform.physio.phys
 import java.util.List;
 import java.util.Optional;
 
-@CrossOrigin(origins = "http://localhost:4200/")
+@CrossOrigin(origins ="*")
 @RestController
 @RequestMapping("/api/v1/physios")
 public class PhysioController {
