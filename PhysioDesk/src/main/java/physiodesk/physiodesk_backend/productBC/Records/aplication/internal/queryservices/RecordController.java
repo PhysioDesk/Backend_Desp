@@ -20,7 +20,7 @@ import static org.springframework.http.HttpStatus.CREATED;
 
 @RestController
 @RequestMapping("/api/v1/records")
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins ="*")
 public class RecordController {
 
     private final RecordQueryService recordQueryService;
