@@ -17,7 +17,7 @@ import physiodesk.physiodesk_backend.Users.interfaces.rest.transform.user.userRe
 import java.util.List;
 import java.util.Optional;
 
-@CrossOrigin(origins ="*")
+@CrossOrigin(origins ="https://effulgent-lily-2a8d83.netlify.app/")
 @RestController
 @RequestMapping("/api/v1/users")
 public class UserController {
