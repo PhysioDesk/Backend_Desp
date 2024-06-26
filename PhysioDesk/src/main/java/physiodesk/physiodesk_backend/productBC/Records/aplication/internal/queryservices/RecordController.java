@@ -20,7 +20,7 @@ import static org.springframework.http.HttpStatus.CREATED;
 
 @RestController
 @RequestMapping("/api/v1/records")
-@CrossOrigin(origins ="*")
+@CrossOrigin(origins ="https://effulgent-lily-2a8d83.netlify.app/")
 public class RecordController {
 
     private final RecordQueryService recordQueryService;
