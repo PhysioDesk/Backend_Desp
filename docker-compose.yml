@@ -10,7 +10,6 @@ services:
       DB_URL: jdbc:mysql://physiodesk:3306/physiodesk?createDatabaseIfNotExist=true&serverTimezone=UTC
       DB_USER_NAME: root
       DB_PASSWORD: 12345678
-      ROOT: 8080	
     restart: always
     depends_on:
       physiodesk:
