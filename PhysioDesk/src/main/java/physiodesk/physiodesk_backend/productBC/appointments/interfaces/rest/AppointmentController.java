@@ -21,7 +21,7 @@ import java.util.Optional;
 import static org.springframework.http.HttpStatus.CREATED;
 import static org.springframework.http.HttpStatus.NOT_FOUND;
 
-@CrossOrigin(origins = "http://localhost:4200/")
+@CrossOrigin(origins ="*")
 @RestController
 @RequestMapping("/api/v1/appointments")
 public class AppointmentController {
